@@ -21,3 +21,44 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul {
+  list-style: none;
+}
+ 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+ 
+.btn-primary {
+  background-color: #FF9900;
+  color: #FFFFFF;
+}
+ 
+.btn-primary:hover {
+  background-color: #E08800;
+}
+ 
+.btn-outline {
+  background-color: transparent;
+  border-color: #BCD0E5;
+  color: #173A56;
+}
+ 
+.btn-outline:hover {
+  border-color: #FF9900;
+  color: #FF9900;
+}
+ 
+.btn-large {
+  padding: 14px 36px;
+  font-size: 16px;
+}
