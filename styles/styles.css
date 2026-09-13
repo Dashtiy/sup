@@ -93,3 +93,84 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+.brand-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #173A56;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-icon {
+  color: #02897A;
+  font-size: 18px;
+}
+.nav-menu {
+  display: flex;
+  gap: 36px;
+}
+.nav-item {
+  font-size: 15px;
+  font-weight: 500;
+  color: #22343D;
+  transition: color 0.2s ease;
+}
+ 
+.nav-item:hover {
+  color: #02897A;
+}
+ 
+.nav-buttons {
+  display: flex;
+  gap: 16px;
+}
+.hero-section {
+  padding: 70px 0 80px;
+}
+ 
+.hero-layout {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+ 
+.hero-content {
+  flex: 1 1 50%;
+  max-width: 500px;
+}
+ 
+.hero-media {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+.hero-img {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  display: block;
+}
+ 
+.hero-title {
+  font-size: 46px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #22343D;
+  margin-bottom: 20px;
+}
+ 
+.hero-description {
+  font-size: 17px;
+  color: #556976;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+ 
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
