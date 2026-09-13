@@ -62,3 +62,19 @@ ul {
   padding: 14px 36px;
   font-size: 16px;
 }
+.media-box {
+  width: 100%;
+  height: 380px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #EBEFF2;
+}
+ 
+.hero-box          { background-color: #F6FAF9; color: #02897A; }
+.red-accent-box    { background-color: #FFF2ED; color: #F4511E; }
+.blue-accent-box   { background-color: #EDF5FF; color: #03A9F4; }
+.yellow-accent-box { background-color: #FFF9E6; color: #FFC000; }
