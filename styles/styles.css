@@ -251,3 +251,31 @@ ul {
   color: #556976;
   line-height: 1.6;
 }
+.split-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+ 
+.split-info {
+  flex: 1;
+}
+ 
+.split-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+ 
+.split-layout.row-reversed {
+  flex-direction: row-reverse;
+}
+ 
+.section-cta {
+  text-align: center;
+}
+ 
+.content-row-section {
+  padding: 60px 0;
+}
