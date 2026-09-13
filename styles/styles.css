@@ -310,3 +310,30 @@ ul {
   font-size: 14px;
   color: #556976;
 }
+.checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+ 
+.checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 15px;
+  color: #22343D;
+}
+ 
+.check-bullet {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #FF6854;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+}
