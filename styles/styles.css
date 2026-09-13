@@ -78,6 +78,7 @@ ul {
 .red-accent-box    { background-color: #FFF2ED; color: #F4511E; }
 .blue-accent-box   { background-color: #EDF5FF; color: #03A9F4; }
 .yellow-accent-box { background-color: #FFF9E6; color: #FFC000; }
+
 .site-header {
   height: 78px;
   background-color: #FFFFFF;
@@ -85,4 +86,10 @@ ul {
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #F0F2F5;
+}
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
