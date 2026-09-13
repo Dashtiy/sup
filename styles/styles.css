@@ -337,3 +337,34 @@ ul {
   font-size: 12px;
   flex-shrink: 0;
 }
+.site-footer {
+  border-top: 1px solid #E5EBF1;
+  padding: 80px 0 40px;
+  margin-top: 60px;
+}
+ 
+.footer-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.6fr;
+  gap: 40px;
+}
+ 
+.footer-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+ 
+.footer-links li {
+  margin-bottom: 12px;
+}
+ 
+.footer-links a {
+  font-size: 14px;
+  color: #556976;
+  transition: color 0.2s ease;
+}
+ 
+.footer-links a:hover {
+  color: #02897A;
+}
