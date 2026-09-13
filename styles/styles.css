@@ -278,4 +278,35 @@ ul {
  
 .content-row-section {
   padding: 60px 0;
+}.info-kicker {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+ 
+.info-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  line-height: 1.3;
+}
+ 
+.info-lead {
+  color: #556976;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+ 
+.info-group .sub-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+ 
+.info-group .sub-text {
+  font-size: 14px;
+  color: #556976;
 }
